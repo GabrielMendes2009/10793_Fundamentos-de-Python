@@ -40,21 +40,21 @@ print((nota+nota1+nota2+nota3)/4)
 # Ex5
 print("--"*3, "Exercício 5", "--"*3)
 
-metros = float(input("Digite o valor em metros: "))
+metros = float(input("Insira o valor em metros: "))
 cent = metros * 100
 print(f"{metros} metros equivalem a {cent} centímetros")
 
 # Ex6
 print("--"*3, "Exercício 6", "--"*3)
 
-raio = float(input("Digite o raio do círculo: "))
+raio = float(input("Insira o raio do círculo: "))
 area = math.pi * (raio ** 2)
 print(f"A área do círculo é {area:.2f} m2")
 
 # Ex7
 print("--"*3, "Exercício 7", "--"*3)
 
-lado = float(input("Digite o valor do lado do quadrado: "))
+lado = float(input("Insira o valor do lado do quadrado: "))
 area = lado ** 2
 dobro_da_area = 2 * area
 print(f"A área do quadrado é {area:.2f}. \nO dobro da área é {dobro_da_area:.2f}")
@@ -72,21 +72,21 @@ print("--"*3, "Exercício 9", "--"*3)
 
 fahrenheit = float(input("Insira a temperatura em Fahrenheit: "))
 celsius = 5 * ((fahrenheit - 32) / 9)
-print(f"A temperatura de {fahrenheit}°F equivale a {celsius:.2f}°C")
+print(f"A temperatura de {fahrenheit}°F é igual a {celsius:.2f}°C")
 
 # Ex10
 print("--"*3, "Exercício 10", "--"*3)
 
-celsius = float(input("Digite a temperatura em Celsius: "))
+celsius = float(input("Insira a temperatura em Celsius: "))
 fahrenheit = (celsius * 9 / 5) + 32
-print(f"A temperatura de {celsius}°C equivale a {fahrenheit:.2f}°F.")
+print(f"A temperatura de {celsius}°C é igual a {fahrenheit:.2f}°F.")
 
 # Ex11
 print("--"*3, "Exercício 11", "--"*3)
 
-int1 = int(input("Digite o primeiro número inteiro: "))
-int2 = int(input("Digite o segundo número inteiro: "))
-real = float(input("Digite um número real: "))
+int1 = int(input("Insira o primeiro número inteiro: "))
+int2 = int(input("Insira o segundo número inteiro: "))
+real = float(input("Insira um número real: "))
 
 prod = (2 * int1) * (int2 / 2)
 soma = (3 * int1) + real
