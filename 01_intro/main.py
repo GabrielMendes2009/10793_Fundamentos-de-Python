@@ -196,4 +196,23 @@ while numero >= 0:
         else:
             print("Número inválido inserido.")
     
-    
+# range(5) -> 0, 1, 2, 3, 4             -> range(n) -> todos os num int de 0 a n-1
+# range (5, 10) -> 5, 6, 7, 8, 9        -> range(m, n) -> tidis is num int de m a n-1
+# range (4, 11, 2) -> 4, 6, 8, 10       -> range(m, n, s) -> todos os num int de m a n-1 com um step de s
+
+range(4)    # 0 1 2 3
+range(0, 4) # 0 1 2 3
+
+range(4, 8) # 4, 5, 6, 7
+
+range(12, 18, 2) # 12, 14, 16
+
+print("--"*3, "for loops", "--"*3)
+
+for i in range(4):
+    print(i)
+
+for i in range(4, 20, 2):
+    print(i, end=" ")
+
+print("")
