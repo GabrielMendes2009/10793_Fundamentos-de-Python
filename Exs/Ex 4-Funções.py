@@ -1,7 +1,7 @@
 """
 Nome: Gabriel Mendes
 Turma: PIPL0924
-Trabalho: Ex 4 - Estrutura Sequencial
+Trabalho: Ex 4 - Funções
 
 """
 

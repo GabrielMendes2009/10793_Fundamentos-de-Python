@@ -1,3 +1,10 @@
+"""
+Nome: Gabriel Mendes
+Turma: PIPL0924
+Trabalho: Ex 3 - Estrutura De Repetição
+
+"""
+
 # Ex1
 print("--"*3, "Exercício 1", "--"*3)
 
