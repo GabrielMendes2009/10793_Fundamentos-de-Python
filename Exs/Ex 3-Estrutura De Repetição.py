@@ -9,25 +9,25 @@ Trabalho: Ex 3 - Estrutura De Repetição
 print("--"*3, "Exercício 1", "--"*3)
 
 while True:
-    nota = float(input("Digite uma nota entre 0 e 10: "))
+    nota = float(input("Insira uma nota entre 0 e 10: "))
     if 0 <= nota <= 10:
         print(f"Nota válida: {nota}")
         break
     else:
-        print("Valor inválido! Tente novamente.\n")
+        print("Nota inválida!!!! Tente novamente.\n")
 
 
 # Ex2
 print("--"*3, "Exercício 2", "--"*3)
 
 while True:
-    usuario = input("Digite o nome de usuário: ")
-    senha = input("Digite a senha: ")
+    usuario = input("Insira o nome de usuário: ")
+    senha = input("Insira a senha: ")
 
     if senha == usuario:
         print("Erro: a senha não pode ser igual ao nome de usuário.\n")
     else:
-        print("Usuário e senha cadastrados com sucesso!\n")
+        print("Usuário e senha cadastrados com sucesso!!!!!\n")
         break
 
 
@@ -42,17 +42,17 @@ while True:
     estado_civil = input("Estado Civil (s, c, v, d): ").lower()
 
     if len(nome) <= 3:
-        print("Erro: nome deve ter mais de 3 caracteres.\n")
+        print("Erro: nome deve ter mais de 3 caracteres\n")
     elif not (0 <= idade <= 150):
-        print("Erro: idade deve estar entre 0 e 150.\n")
+        print("Erro: idade deve estar entre 0 e 150\n")
     elif salario <= 0:
-        print("Erro: salário deve ser maior que zero.\n")
+        print("Erro: salário deve ser maior que zero\n")
     elif sexo not in ['f', 'm']:
-        print("Erro: sexo deve ser 'f' ou 'm'.\n")
+        print("Erro: sexo deve ser 'f' ou 'm'\n")
     elif estado_civil not in ['s', 'c', 'v', 'd']:
         print("Erro: estado civil inválido.\n")
     else:
-        print("Informações válidas!\n")
+        print("Informações válidas!!!!!\n")
         break
 
 
@@ -83,7 +83,7 @@ while True:
     taxaB = float(input("Informe a taxa de crescimento do país B (em %): "))
 
     if popA <= 0 or popB <= 0 or taxaA <= 0 or taxaB <= 0:
-        print("Todos os valores devem ser maiores que zero.\n")
+        print("Todos os valores devem ser maiores que zero\n")
         continue
 
     taxaA /= 100
@@ -95,7 +95,7 @@ while True:
         popB += popB * taxaB
         anos += 1
 
-    print(f"Serão necessários {anos} anos para A ultrapassar ou igualar B.\n")
+    print(f"Serão necessários {anos} anos para A ultrapassar ou igualar B\n")
 
     repetir = input("Deseja repetir a operação? (s/n): ").lower()
     if repetir != 's':
@@ -132,7 +132,7 @@ print("--"*3, "Exercício 8", "--"*3)
 
 soma = 0
 for i in range(5):
-    num = float(input(f"Digite o {i+1}º número: "))
+    num = float(input(f"Insira o {i+1}º número: "))
     soma += num
 
 media = soma / 5
@@ -153,8 +153,8 @@ print("\n")
 # Ex10
 print("--"*3, "Exercício 10", "--"*3)
 
-inicio = int(input("Digite o primeiro número: "))
-fim = int(input("Digite o segundo número: "))
+inicio = int(input("Insira o primeiro número: "))
+fim = int(input("Insira o segundo número: "))
 
 if inicio > fim:
     inicio, fim = fim, inicio  # garante ordem crescente
@@ -168,8 +168,8 @@ print("\n")
 # Ex11
 print("--"*3, "Exercício 11", "--"*3)
 
-inicio = int(input("Digite o primeiro número: "))
-fim = int(input("Digite o segundo número: "))
+inicio = int(input("Insira o primeiro número: "))
+fim = int(input("Insira o segundo número: "))
 
 if inicio > fim:
     inicio, fim = fim, inicio
@@ -186,7 +186,7 @@ print(f"\nSoma dos números no intervalo: {soma}\n")
 # Ex12
 print("--"*3, "Exercício 12", "--"*3)
 
-num = int(input("Digite um número para ver sua tabuada (1 a 10): "))
+num = int(input("Insira um número para ver sua tabuada (1 a 10): "))
 
 if 1 <= num <= 10:
     print(f"\nTabuada de {num}:")
