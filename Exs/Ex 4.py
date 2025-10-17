@@ -42,7 +42,7 @@ def ex4():
     media = (nota1 + nota2 + nota3 + nota4) / 4
     print(f"A média do aluno é {media:.2f}")
 
-print(ex3)
+print(ex4)
 
 # Ex5
 def ex5():
@@ -51,7 +51,7 @@ def ex5():
     cent = metros * 100
     print(f"{metros} metros equivalem a {cent} centímetros")
 
-print(ex3)
+print(ex5)
 
 # Ex6
 def ex6():
@@ -60,7 +60,7 @@ def ex6():
     area = math.pi * (raio ** 2)
     print(f"A área do círculo é {area:.2f} m²")
 
-print(ex3)
+print(ex6)
 
 # Ex7
 def ex7():
@@ -71,7 +71,7 @@ def ex7():
     print(f"A área do quadrado é {area:.2f}.")
     print(f"O dobro da área é {dobro:.2f}.")
 
-print(ex3)
+print(ex7)
 
 # Ex8
 def ex8():
@@ -81,7 +81,7 @@ def ex8():
     salario = ganho_hora * horas_mes
     print(f"O seu salário mensal é €{salario:.2f}")
 
-print(ex3)
+print(ex8)
 
 # Ex9
 def ex9():
@@ -90,7 +90,7 @@ def ex9():
     celsius = 5 * ((fahrenheit - 32) / 9)
     print(f"A temperatura de {fahrenheit}°F é igual a {celsius:.2f}°C")
 
-print(ex3)
+print(ex9)
 
 # Ex10
 def ex10():
@@ -99,7 +99,7 @@ def ex10():
     fahrenheit = (celsius * 9 / 5) + 32
     print(f"A temperatura de {celsius}°C é igual a {fahrenheit:.2f}°F.")
 
-print(ex3)
+print(ex10)
 
 # Ex11
 def ex11():
@@ -116,7 +116,7 @@ def ex11():
     print(f"A soma do triplo do primeiro com o terceiro é {soma:.2f}.")
     print(f"O terceiro elevado ao cubo é {cubo:.2f}.")
 
-print(ex3)
+print(ex11)
 
 # Ex12
 def ex12():
@@ -131,7 +131,7 @@ def ex12():
     else:
         print("Os dois números são iguais.")
 
-print(ex3)
+print(ex12)
 
 # Ex13
 def ex13():
@@ -145,7 +145,7 @@ def ex13():
     else:
         print("O valor é zero.")
 
-print(ex3)
+print(ex13)
 
 # Ex14
 def ex14():
@@ -159,7 +159,7 @@ def ex14():
     else:
         print("Sexo Inválido")
 
-print(ex3)
+print(ex14)
 
 # Ex15
 def ex15():
@@ -173,7 +173,7 @@ def ex15():
     else:
         print("Por favor, digite uma letra válida.")
 
-print(ex3)
+print(ex15)
 
 # Ex16
 def ex16():
@@ -189,7 +189,7 @@ def ex16():
     else:
         print("Reprovado")
 
-print(ex3)
+print(ex16)
 
 # Ex17
 def ex17():
@@ -201,7 +201,7 @@ def ex17():
     maior = max(a, b, c)
     print(f"O maior número é {maior}\n")
 
-print(ex3)
+print(ex17)
 
 # Ex18
 def ex18():
@@ -215,7 +215,7 @@ def ex18():
     print(f"O maior número é {maior}")
     print(f"O menor número é {menor}\n")
 
-print(ex3)
+print(ex18)
 
 # Ex19
 def ex19():
@@ -235,7 +235,7 @@ def ex19():
 
     print(f"Você deve comprar o {produto}, que custa {mais_barato:.2f}€\n")
 
-print(ex3)
+print(ex19)
 
 # Ex20
 def ex20():
@@ -248,7 +248,7 @@ def ex20():
     nums.sort(reverse=True)
     print("Números em ordem decrescente:", nums, "\n")
 
-print(ex3)
+print(ex20)
 
 # Ex21
 def ex21():
@@ -264,7 +264,7 @@ def ex21():
     else:
         print("Valor Inválido!!!!!!!\n")
 
-print(ex3)
+print(ex21)
 
 # Ex22
 def ex22():
@@ -287,3 +287,5 @@ def ex22():
     print(f"Percentual de aumento aplicado: {percentual}%")
     print(f"Valor do aumento: {aumento:.2f}€")
     print(f"Novo salário após o aumento: {novo_salario:.2f}€")
+
+print(ex22)
