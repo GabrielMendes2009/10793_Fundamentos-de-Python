@@ -157,7 +157,7 @@ inicio = int(input("Insira o primeiro número: "))
 fim = int(input("Insira o segundo número: "))
 
 if inicio > fim:
-    inicio, fim = fim, inicio  # garante ordem crescente
+    inicio, fim = fim, inicio
 
 print(f"Números entre {inicio} e {fim}:")
 for i in range(inicio + 1, fim):
