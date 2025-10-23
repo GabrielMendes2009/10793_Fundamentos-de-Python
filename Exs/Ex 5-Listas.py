@@ -11,7 +11,7 @@ print("--"*3, "Exercício 1", "--"*3)
 def ex1(n):
     for i in range(1, n + 1):
         linha = [i] * i
-        print(*linha)
+        print(linha)
 
 print(ex1(5))
 
@@ -20,7 +20,7 @@ print("--"*3, "Exercício 2", "--"*3)
 def ex2(n):
     for i in range(1, n + 1):
         linha = list(range(1, i + 1))
-        print(*linha)
+        print(linha)
     
 print(ex2(5))
 
