@@ -13,7 +13,7 @@ def ex1(n):
         linha = [i] * i
         print(*linha)
 
-print(ex1())
+print(ex1(5))
 
 # Ex2
 print("--"*3, "Exercício 2", "--"*3)
@@ -22,7 +22,7 @@ def ex2(n):
         linha = list(range(1, i + 1))
         print(*linha)
     
-print(ex2())
+print(ex2(5))
 
 # Ex3
 print("--"*3, "Exercício 3", "--"*3)
@@ -96,7 +96,7 @@ def ex8():
     medias = []
     for i in range(10):
         notas = []
-        print(f"\nAluno {i+1}:")
+        print(f"\nAluno {i+1}")
         for j in range(4):
             notas.append(float(input(f"Insira a {j+1}ª nota: ")))
         media = sum(notas) / 4
@@ -150,33 +150,49 @@ print(ex11())
 # Ex12
 print("--"*3, "Exercício 12", "--"*3)
 def ex12():
-    A, B = [], []
+    lista1, lista2 = [], []
+    
+    print("Insira 10 números para a primeira lista:")
     for i in range(10):
-        A.append(int(input(f"A[{i+1}]: ")))
+        lista1.append(int(input(f"Número {i+1} da primeira lista: ")))
+    
+    print("\nInsira 10 números para a segunda lista:")
     for i in range(10):
-        B.append(int(input(f"B[{i+1}]: ")))
-    C = []
+        lista2.append(int(input(f"Número {i+1} da segunda lista: ")))
+    
+    lista_intercalada = []
     for i in range(10):
-        C.append(A[i])
-        C.append(B[i])
-    print("Vetor intercalado:", C)
+        lista_intercalada.append(lista1[i])
+        lista_intercalada.append(lista2[i])
+    
+    print("\nLista intercalada:")
+    print(lista_intercalada)
 
 print(ex12())
 
 # Ex13
 print("--"*3, "Exercício 13", "--"*3)
 def ex13():
-    A, B, C = [], [], []
+    lista1, lista2, lista3 = [], [], []
+    
+    print("Digite 10 números para a primeira lista:")
     for i in range(10):
-        A.append(int(input(f"A[{i+1}]: ")))
+        lista1.append(int(input(f"Número {i+1} da primeira lista: ")))
+    
+    print("\nDigite 10 números para a segunda lista:")
     for i in range(10):
-        B.append(int(input(f"B[{i+1}]: ")))
+        lista2.append(int(input(f"Número {i+1} da segunda lista: ")))
+    
+    print("\nDigite 10 números para a terceira lista:")
     for i in range(10):
-        C.append(int(input(f"C[{i+1}]: ")))
-    D = []
+        lista3.append(int(input(f"Número {i+1} da terceira lista: ")))
+    
+    lista_intercalada = []
     for i in range(10):
-        D.extend([A[i], B[i], C[i]])
-    print("Vetor intercalado:", D)
+        lista_intercalada.extend([lista1[i], lista2[i], lista3[i]])
+    
+    print("\nLista intercalada")
+    print(lista_intercalada)
 
 print(ex13())
 
