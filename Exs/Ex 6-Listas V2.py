@@ -124,5 +124,6 @@ def ex4():
         print(f"Atleta: {nome}")
         print("Saltos: " + " - ".join([str(s) for s in saltos]))
         print(f"Média dos saltos: {media:.2f} m\n")
+        
 ex4()
 

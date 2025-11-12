@@ -36,3 +36,4 @@ class Pessoa:
 m1 = Morada("Rua das Flores", "1234-567", 10, 2)
 p1 = Pessoa("Adalberto Silva da Cunha dos Santos Pereira Miguel Dumond", 20, 170, m1)
 p1.info()
+
