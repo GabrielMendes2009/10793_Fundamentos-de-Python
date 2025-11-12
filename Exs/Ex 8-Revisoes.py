@@ -1,6 +1,6 @@
 """
-Nome:
-Turma:
+Nome: Gabriel Mendes
+Turma: PIPL0924
 Trabalho: Ex8 - revisões  
 """
 
